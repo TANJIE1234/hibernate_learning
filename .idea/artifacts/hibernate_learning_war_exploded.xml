@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hibernate_learning:war exploded">
+    <output-path>$PROJECT_DIR$/target/hibernate_learning</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hibernate_learning" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:unknown" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/hibernate_learning/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hibernate_learning/web/Web" />
+    </root>
+  </artifact>
+</component>
